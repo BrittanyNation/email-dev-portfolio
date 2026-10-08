@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brittany Nation — Email Developer Portfolio</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background: #FDF8F3; color: #3A2E35; line-height: 1.6; }
+  header { background: linear-gradient(135deg, #F8E1E8 0%, #FBDCE5 50%, #F3C6D3 100%); padding: 70px 24px; text-align: center; }
+  header h1 { font-size: 2.4rem; letter-spacing: 1px; margin-bottom: 10px; }
+  header h1 span { color: #C75B7A; }
+  header p { font-size: 1.1rem; max-width: 620px; margin: 0 auto; font-style: italic; }
+  .badge { display: inline-block; margin-top: 18px; background: #3A2E35; color: #FDF8F3; font-family: Arial, sans-serif; font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; padding: 8px 20px; border-radius: 30px; }
+  main { max-width: 1000px; margin: 0 auto; padding: 50px 24px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 28px; }
+  .card { background: #fff; border-radius: 16px; overflow: hidden; box-shadow: 0 6px 24px rgba(199,91,122,.12); text-decoration: none; color: inherit; transition: transform .2s; display: block; }
+  .card:hover { transform: translateY(-5px); }
+  .card .swatch { height: 150px; display: flex; align-items: center; justify-content: center; font-size: 3rem; }
+  .card .body { padding: 22px; }
+  .card h2 { font-size: 1.25rem; margin-bottom: 6px; }
+  .card p { font-family: Arial, sans-serif; font-size: 0.92rem; color: #6b5a63; }
+  .card .tag { display: inline-block; margin-top: 12px; font-family: Arial, sans-serif; font-size: 0.75rem; letter-spacing: 1.5px; text-transform: uppercase; color: #C75B7A; }
+  .skills { margin-top: 60px; background: #fff; border-radius: 16px; padding: 36px; box-shadow: 0 6px 24px rgba(199,91,122,.12); }
+  .skills h2 { margin-bottom: 16px; }
+  .skills ul { font-family: Arial, sans-serif; columns: 2; gap: 40px; padding-left: 20px; }
+  .skills li { margin-bottom: 10px; break-inside: avoid; }
+  footer { text-align: center; padding: 40px 24px; font-family: Arial, sans-serif; font-size: 0.85rem; color: #9a8a92; }
+  footer a { color: #C75B7A; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Brittany <span>Nation</span></h1>
+  <p>Email developer crafting beautiful, responsive HTML emails with tables, inline CSS, and zero JavaScript.</p>
+  <div class="badge">Email Developer Portfolio</div>
+</header>
+<main>
+  <div class="grid">
+    <a class="card" href="welcome/">
+      <div class="swatch" style="background:#F8E1E8;">&#10047;</div>
+      <div class="body">
+        <h2>Welcome Email</h2>
+        <p>Warm onboarding email for Bloom &amp; Co. with a bulletproof CTA button, brand hero, and perk highlights.</p>
+        <span class="tag">View template &rarr;</span>
+      </div>
+    </a>
+    <a class="card" href="newsletter/">
+      <div class="swatch" style="background:#F3C6D3;">&#9993;</div>
+      <div class="body">
+        <h2>Newsletter — The Sunday Edit</h2>
+        <p>Multi-article lifestyle newsletter with a two-column story layout that stacks gracefully on mobile.</p>
+        <span class="tag">View template &rarr;</span>
+      </div>
+    </a>
+    <a class="card" href="promo/">
+      <div class="swatch" style="background:#FBDCE5;">&#127873;</div>
+      <div class="body">
+        <h2>Promotional — Spring Sale</h2>
+        <p>High-energy sale announcement with countdown-style urgency, product grid, and promo code block.</p>
+        <span class="tag">View template &rarr;</span>
+      </div>
+    </a>
+    <a class="card" href="order-confirmation/">
+      <div class="swatch" style="background:#EFE3D8;">&#128230;</div>
+      <div class="body">
+        <h2>Order Confirmation</h2>
+        <p>Transactional email with order summary table, shipping timeline, and clear next steps.</p>
+        <span class="tag">View template &rarr;</span>
+      </div>
+    </a>
+    <a class="card" href="win-back/">
+      <div class="swatch" style="background:#F6D9E0;">&#128158;</div>
+      <div class="body">
+        <h2>Win-Back — We Miss You</h2>
+        <p>Re-engagement email with a personal tone, comeback offer, and preference-center footer.</p>
+        <span class="tag">View template &rarr;</span>
+      </div>
+    </a>
+  </div>
+
+  <div class="skills">
+    <h2>Techniques demonstrated</h2>
+    <ul>
+      <li>Table-based layouts with <code>role="presentation"</code></li>
+      <li>Fully inline CSS for maximum client support</li>
+      <li>Bulletproof buttons (VML for Outlook)</li>
+      <li>Fluid + hybrid responsive design with media queries</li>
+      <li>Outlook MSO conditional comments</li>
+      <li>Dark-mode support via <code>prefers-color-scheme</code></li>
+      <li>Hidden preheader preview text</li>
+      <li>Accessible color contrast and alt text</li>
+    </ul>
+  </div>
+</main>
+<footer>
+  Built with HTML tables and inline CSS — no JavaScript, on purpose.<br>
+  <a href="https://brittanynation.github.io/brittany-nation-portfolio/">Main portfolio</a> &middot;
+  <a href="https://github.com/BrittanyNation">GitHub</a>
+</footer>
+</body>
+</html>
